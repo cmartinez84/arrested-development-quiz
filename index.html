@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+    <link rel="stylesheet" href="css/my-styles.css" type="text/css">
+    <script src="js/jquery-3.1.0.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Which arrested development character are you?</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Which Arrested Development Character Are You?</h1>
+      <h2>Play Our Quiz!</h2>
+    </div>
+    <form class="form-group">
+      <div class="form-group">
+        <label for="drink">What is your favorite drink?</label>
+        <select id="drink">
+          <option value="">Water</option>
+          <option value="Buster">Juice</option>
+          <option value="lucille">Martini</option>
+        </select>
+      </div>
+      <div class="form-group">
+      <label for="pasttime">What do you like to do in your free time?</label>
+        <select id="pasttime">
+          <option value="">Going to the beach</option>
+          <option value="georgemichael">Working at the Banana Stand</option>
+          <option value="lindsey">Shopping</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="nude">How comfortable are you with nudity?</label>
+        <select id="nude">
+          <option value="not">Not at all</option>
+          <option value="">Somewhat</option>
+          <option value="">Very Comfortable</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="embarass">You just embarrssed yourself in front of a prospective partner. What do you do?</label>
+        <select id="embarass">
+          <option value="georgemichael">Hang your head low and walk off sullenly to the Peanuts Song</option>
+          <option value="gob">Take forget-me-now</option>
+          <option value="michael">Give serious lecture on responsibility and duty to protect the family name</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hello">What does Anyong Mean?</label>
+        <select id="hello">
+          <option value="lucille">Lucille's Bluth's spitefully adopted child</option>
+          <option value="anyong">Hello</option>
+          <option value="">Can you repeat the question?</option>
+        </select>
+      </div>
+
+    </form>
+
+    <!-- begin modal w answers -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Submit
+    </button>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <div id="anyong">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Anyong</p>
+            <img src="img/anyong.gif">
+          </div>
+          <div id="gob">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Gob</p>
+            <img src="img/bog.jpg">
+          </div>
+          <div id="gmbluth">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">George Michael</p>
+            <img src="img/gmbluth.jpg">
+          </div>
+          <div id="lindsey">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Lindsey</p>
+            <img src="img/lindsey.gif">
+          </div>
+          <div id="lucille">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Lucille</p>
+            <img src="img/lucille.gif">
+          </div>
+          <div id="maybe">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Maybe</p>
+            <img src="img/maybe.gif">
+          </div>
+          <div id="michael">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Michael</p>
+            <img src="img/michael.png">
+          </div>
+          <div id="tobias">
+            <h2>Congratulations! You are most like</h2>
+            <p class="charName">Tobias</p>
+            <img src="img/tobias.png">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end modal -->
+
+
+  </body>
+</html>
