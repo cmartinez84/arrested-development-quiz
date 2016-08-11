@@ -1,6 +1,20 @@
 body{
 	background: url("../img/background.jpg") left bottom fixed no-repeat;
+
 }
 form{
-	background: rgba(255, 140, 26, 0.7);
+	background: rgba(255, 140, 26, 0.65);
+	padding: 49px 50px 30px !important;
+	margin: auto 100px auto !important;
+	box-shadow: 3px 3px rgba(255, 255, 255, 0.6);
+	border-radius: 15px !important;
+
+
+}
+.jumbotron{
+	background: transparent !important;
+
+}
+h1, h2 {
+	font-family: 'Nunito', sans-serif !important;
 }
